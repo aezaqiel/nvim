@@ -36,7 +36,6 @@ require('packer').startup({
     use 'sainnhe/gruvbox-material'
     use 'xiyaowong/nvim-transparent'
     use 'nvim-lualine/lualine.nvim'
-    use 'lukas-reineke/indent-blankline.nvim'
     use 'tpope/vim-sleuth'
 
     use { 'windwp/nvim-autopairs', config = function() require('nvim-autopairs').setup() end }
